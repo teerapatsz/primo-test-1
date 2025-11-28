@@ -29,20 +29,12 @@ A robust NestJS application providing hybrid encryption and decryption services 
    ```
 
 ## ▶️ How to Start the Service
-
-### Development Mode
-To start the application in development mode with hot-reload:
-```bash
-npm run start:dev
-```
-The server will start on `http://localhost:3000`.
-
-### Production Mode
-To build and run the application in production mode:
+To start the application:
 ```bash
 npm run build
-npm run start:prod
+npm start or npm run start:dev
 ```
+The server will start on `http://localhost:3000`.
 
 ## 📚 API Documentation
 

@@ -28,16 +28,6 @@ A robust NestJS application providing hybrid encryption and decryption services 
    npm install
    ```
 
-3. **Setup Cryptographic Keys:**
-   This service requires RSA keys to function. Ensure you have `private.pem` and `public.pem` in the `src/keys/` directory.
-
-   > **Note:** If these files are missing, you can generate them using OpenSSL:
-   > ```bash
-   > mkdir -p src/keys
-   > openssl genrsa -out src/keys/private.pem 2048
-   > openssl rsa -in src/keys/private.pem -outform PEM -pubout -out src/keys/public.pem
-   > ```
-
 ## ▶️ How to Start the Service
 
 ### Development Mode

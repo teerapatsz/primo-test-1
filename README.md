@@ -45,6 +45,7 @@ Once the application is running, you can access the Swagger UI to explore and te
 ### Key Endpoints:
 - **`POST /get-encrypt-data`**: Encrypts a payload.
 - **`POST /get-decrypt-data`**: Decrypts data (requires `data1` (encrypted key) and `data2` (encrypted payload)).
+- **`GET /api-docs`**: Get Swagger for API Document.
 
 ## 🧪 Running Tests
 
